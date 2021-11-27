@@ -2,7 +2,7 @@
 
 body {
   width: 372px;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 
 .main {
@@ -76,17 +76,7 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   color: blue;
-  margin: 20px; 
-}
-
-.container1 {
-  height: 552px;
-  width: 327px;
-  left: 24px;
-  top: 114px;
-  border-radius: 16px;
-  padding: 16px;
-
+  margin: 20px;
 }
 
 .portolio_img {
@@ -95,7 +85,8 @@ body {
   left: 16px;
   top: 16px;
   border-radius: 8px;
-  padding-top: 100px;  
+  padding-top: 100px;
+  margin-left: 10px;  
 }
 
 .tittle {
@@ -107,7 +98,8 @@ body {
   letter-spacing: 0;
   text-align: left;
   margin: 10px;
-  color:#172B4D;
+  margin-left: 10px;
+  color:#172b4d;
 }
 
 .canopy {
@@ -123,7 +115,8 @@ body {
 }
 
 .words {
-  color: #7A869A;
+  color: #7a869a;
+  margin-left: 10px;
 }
 
 .paragraph {
@@ -134,6 +127,7 @@ body {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  margin-left: 11px;
   color: #344563;
 }
 
@@ -145,7 +139,7 @@ button {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 5px;
   padding: 3px;
   border: 0;
@@ -154,7 +148,7 @@ button {
 }
 
 .btn-proj {
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   background-color: white;
   padding: 10px;
 }
@@ -166,10 +160,13 @@ button {
 
 .container1 {
   background-color: white;
-  width: 310px;
+  width: 340px;
   height: 590px;
   margin: 20px;
   padding-top: 0;
+  margin-left: 20px;
+  margin-right: 60px;
+  border-radius: 10px;
 }
 
 .container2 {
@@ -210,23 +207,7 @@ button {
 
 .parag {
   font-family: 'Poppins', sans-serif;
-  color: #000000;
+  color: #000;
   font-weight: bold;
-  margin-left: 10px;
-}
-
-.paragraph {
-  margin-left: 10px;
-}
-
-.tittle {
-  margin-left: 10px;
-}
-
-.words {
-  margin-left: 10px;
-}
-
-.portolio_img {
   margin-left: 10px;
 }
