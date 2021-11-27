@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  width: 372px;
+  background-color: #F7F7F9;
+}
+
+.main {
+  background-color: white;
+  position: relative;
+  top: 0;
+  width: 375px;
+  background-image: url(header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #6070ff;
+}
+
+.header {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 100px;
+  color: #172b4d;
+}
+.section {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.img {
+  /* display: flex; */
+  list-style: none;
+  text-align: start;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-right: 20px;
+}
+
+.footer {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: blue;
+  margin: 20px; 
+}
+
+.container1 {
+  height: 552px;
+  width: 327px;
+  left: 24px;
+  top: 114px;
+  border-radius: 16px;
+  padding: 16px;
+
+}
+
+.portolio_img {
+  height: 220px;
+  width: 295px;
+  left: 16px;
+  top: 16px;
+  border-radius: 8px;
+  padding-top: 100px;  
+}
+
+.tittle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  margin: 10px;
+  color:#172B4D;
+}
+
+.canopy {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 10px;
+  color: #344563;
+}
+
+.words {
+  color: #7A869A;
+}
+
+.paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #6070FF;
+  border-radius: 5px;
+  padding: 3px;
+  border: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.btn-proj {
+  border: 1px solid #396DF2;
+  background-color: white;
+  padding: 10px;
+}
+
+.ellipse {
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 {
+  background-color: white;
+  width: 310px;
+  height: 590px;
+  margin: 20px;
+  padding-top: 0;
+}
+
+.container2 {
+  background-color: white;
+  width: 340px;
+  height: 670px;
+  margin: 20px;
+  padding-top: 0;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.container3 {
+  background-color: white;
+  width: 340px;
+  height: 590px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.container4 {
+  background-color: white;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 1px;
+}
+
+.about {
+  background-color: white;
+  width: 375px;
+  height: 1263px;
+  margin: 20px;
+  padding-top: 0;
+  border-radius: 10px;
+}
+
+.parag {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+.paragraph {
+  margin-left: 10px;
+}
+
+.tittle {
+  margin-left: 10px;
+}
+
+.words {
+  margin-left: 10px;
+}
+
+.portolio_img {
+  margin-left: 10px;
+}
