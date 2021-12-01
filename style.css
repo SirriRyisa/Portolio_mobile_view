@@ -214,7 +214,7 @@ button {
   height: 1226px;
   margin: 0;
   border-top-right-radius: 70px;
-  padding-right: auto;
+  padding-right: 0;
 }
 
 .parag {
