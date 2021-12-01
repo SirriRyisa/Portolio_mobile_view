@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
-  background-color:#E5E5E5;
+  background-color:#e5e5e5;
   width: 375px;
 }
 
 .main {
   background-color: white;
   position: relative;
-  display: grid; 
+  display: grid;
   top: 0;
   width: 360px;
   background-image: url(./images/header-shapes\ mobile.png);
@@ -68,9 +68,9 @@ body {
 
 .img {
   text-align: start;
-  padding-left: 20px;  
+  padding-left: 20px; 
   margin-top: 0;
-  margin-right: 20px; 
+  margin-right: 20px;
   /* flex-direction: start; */
 
 }
@@ -85,9 +85,9 @@ body {
 
 .imgs li {
   margin-right: 20px;
-  padding-left: 20;
+  padding-left: 20px;
   list-style: none;
-  
+  padding-left: 0;
 }
 
 .footer {
@@ -129,7 +129,7 @@ body {
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
-  margin: 30px 0 20px 0; 
+  margin: 30px 0 20px 0;
   color: #172b4d;
 }
 
@@ -234,8 +234,8 @@ button {
 
 .container3 {
   background-color: white;
-  height: 530px; 
-  padding-top: 30px; 
+  height: 530px;
+  padding-top: 30px;
   margin: 10px;
   border-radius: 10px;/*
   margin-left: 20px; */
