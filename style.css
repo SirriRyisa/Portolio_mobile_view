@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
-  background-color:#e5e5e5;
+  background-color: #e5e5e5;
   width: 375px;
 }
 
@@ -14,9 +14,6 @@ body {
   background-image: url(./images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-position: top;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
   border-bottom-left-radius: 70px;
 }
 
@@ -60,7 +57,6 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  /* margin: 20px; */
   padding: 40px;
   width: 280px;
   background-color: white;
@@ -71,8 +67,6 @@ body {
   padding-left: 20px; 
   margin-top: 0;
   margin-right: 20px;
-  /* flex-direction: start; */
-
 }
 
 .imgs {
@@ -109,12 +103,9 @@ body {
 }
 
 .portolio_img {
-  /*
-  left: 16px;
-   top: 16px; */
   border-radius: 8px;
-  margin: 0;/*
-  margin-left: 10px; */
+  margin: 0;
+ 
 }
 
 .work-description {
@@ -210,35 +201,12 @@ button {
   flex-direction: column;
 }
 
-/*
-.container1 {
-  background-color: white;
-  width: 340px;
-  height: 540px;
-  margin: 20px; 
-  /* padding-top: 0; 
-  margin-left: 20px;
-  margin-right: 60px;
-  border-radius: 10px;
-}
-
-.container2 {
-  background-color: white;
-  width: 340px;
-  height: 540px;
-  margin: 20px;
-  padding-top: 0;
-  border-radius: 10px;
-  margin-left: 20px;
-} */
-
 .container3 {
   background-color: white;
   height: 530px;
   padding-top: 30px;
   margin: 10px;
-  border-radius: 10px;/*
-  margin-left: 20px; */
+  border-radius: 10px;
 }
 
 .about {
@@ -247,7 +215,6 @@ button {
   width: 340px;
   height: 1226px;
   margin: 0;
-  /* padding-top: 0; */
   border-top-right-radius: 70px;
   padding-right: auto;
 }
