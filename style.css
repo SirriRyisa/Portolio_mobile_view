@@ -42,7 +42,7 @@ body {
   color: #172b4d;
 }
 
-.section, .section2 {
+.section .section2 {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -251,7 +251,7 @@ hr {
   border-top-left-radius: 70px;
   padding-right: 0;
   padding-top: 60px;
-  margin-top: 80px; 
+  margin-top: 80px;
   background-repeat: no-repeat;
   background-position: top;
   top: 0;
@@ -263,7 +263,7 @@ hr {
   color: white;
 }
 
-.name, .email, .msg, .btn {
+.name .email .msg .btn {
   margin-left: 20px;
   padding: 10px;
   border-radius: 5px;
