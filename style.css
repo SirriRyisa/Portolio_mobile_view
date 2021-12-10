@@ -6,7 +6,7 @@ html {
 
 body {
   background-color: #e5e5e5;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -21,14 +21,15 @@ header {
   width: 100%;
   background-image: url(./images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
-  background-size:100%;
-  background-position: top ;
+  background-size: 100%;
+  background-position: top;
   border-bottom-left-radius: 70px;
 }
 
 .logo-img {
   margin-right: 0;
 }
+
 .logo {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -61,16 +62,21 @@ header {
   margin-top: 30px;
   margin-bottom: 25px;
 }
+
 .card {
   background-color:#fff;
   width:85%;
   margin: 0 auto;
   padding: 16px;
-  padding-bottom:24px;
-  border-radius:16px ;
+  padding-bottom: 24px;
+  border-radius: 16px;
+  line-height: 24px;
+  margin-top: -6px;
+  
 }
+
 .card-img img, .card-img {
-  width:100%;
+  width: 100%;
 }
 
 .card h3 {
@@ -93,32 +99,28 @@ header {
 }
 
 .list-tags li {
-  color:  #7A869A;
+  color:  #7a869a;
 }
 
-.card  {
-  line-height: 24px;
-  margin-top: -6px;
-}
-
-.tag-ul{
+.tag-ul {
   padding-left: 0;
   display: flex;
   gap: 20px;
 }
+
 .tag-ul li {
   list-style: none;
-  border: 2px solid #EBEBFF;
+  border: 2px solid #ebebff;
   padding: 4px 12px;
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 8px;
 }
 
 .btn-card {
-  border:1px solid #6070FF;
+  border:1px solid #6070ff;
   border-radius: 8px;
   padding: 12px;
-  color:  #396DF2;
+  color:  #396df2;
   font-size: 1.1rem;
 }
 
@@ -159,7 +161,7 @@ header {
   width: 100%;
 }
 
-.hero h1{
+.hero h1 {
   font-size: 2.4rem;
 }
 .img {
@@ -355,8 +357,8 @@ hr {
 }
 
 .contact--form p {
-margin: 0 2rem;
-text-align: center;
+  margin: 0 2rem;
+  text-align: center;
 }
 
 .last--para {
@@ -454,7 +456,7 @@ text-align: center;
     display: none;
   }
 
-  .header, .section, .footer, .imgs {
+  .header {
     padding-top: 0;
     margin-left: 0;
     margin-top: -10px;
@@ -463,15 +465,22 @@ text-align: center;
   .imgs {
     margin-left: -37px;
     margin-top: 7px;
+    padding-top: 0;
   }
 
   .footer {
     margin-top: 15px;
+    padding-top: 0;
+    margin-left: 0;
   }
 
   .section{
     line-height: 24px;
+    padding-top: 0;
+    margin-left: 0;
+    margin-top: -10px;
   }
+
  .btn-proj{
     margin-top: -20px;
     margin-left:-3px;
@@ -521,12 +530,12 @@ text-align: center;
   }
 
   .ellipse {
-     display: flex;
-     flex-direction: row;
-     gap: 15px;
-     margin-right: 40px;
-     padding-bottom: 10px;
-     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   .ellipse button {
@@ -543,43 +552,43 @@ text-align: center;
   }
 
    .desktop--btn {
-     justify-items: space-between; 
+    justify-items: space-between; 
   }
    
    .about--container {
-     padding:0 20px;
+    padding:0 20px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     margin-top: -300px;
   }
 
-   .about--container >  h4 {
-     margin-left: 0.47em;
+  .about--container >  h4 {
+    margin-left: 0.47em;
   }
 
-   .about--container h4 {
-     padding: 0;
-     text-align: left ;
+  .about--container h4 {
+    padding: 0;
+    text-align: left ;
   }
 
-   .inner-about{
-     padding-left:30px;
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
+  .inner-about{
+    padding-left:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   
    /* Card */
-   .card {
-     display: flex;
-     flex-direction: row;
-     gap: 46px;
-     width: 80%;
-     max-width: 1400px;
-     border-radius: 24px;
+  .card {
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+    width: 80%;
+    max-width: 1400px;
+    border-radius: 24px;
   }
-  
+
   .card-img {
     width:544px;
   }
@@ -601,7 +610,7 @@ text-align: center;
   }
   
   .list-tags li {
-    color:  #7A869A;
+    color:  #7a869a;
   }
   
   .card p {
@@ -614,11 +623,12 @@ text-align: center;
     display: flex;
     gap: 20px;
   }
+
   .tag-ul li {
     list-style: none;
-    border: 2px solid #EBEBFF;
+    border: 2px solid #ebebff;
     padding: 4px 12px;
-    color:  #6070FF;
+    color: #6070ff;
     border-radius: 8px;
   }
   
