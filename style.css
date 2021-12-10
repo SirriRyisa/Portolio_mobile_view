@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 html {
   box-sizing: border-box;
@@ -21,8 +21,8 @@ header {
   width: 100%;
   background-image: url(./images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
-  background-size:100%;
-  background-position: top ;
+  background-size: 100%;
+  background-position: top;
   border-bottom-left-radius: 70px;
 }
 
@@ -30,7 +30,7 @@ header {
   margin-right: 0;
 }
 .logo {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -41,7 +41,7 @@ header {
 }
 
 .header {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -52,6 +52,11 @@ header {
   margin-right: 20px;
   padding-top: 100px;
   color: #172b4d;
+  transition: transform 1s ease-in;
+}
+
+.header:hover {
+  transform: scale(1.2);
 }
 
 .card-section {
@@ -62,15 +67,16 @@ header {
   margin-bottom: 25px;
 }
 .card {
-  background-color:#fff;
-  width:85%;
+  background-color: #fff;
+  width: 85%;
   margin: 0 auto;
   padding: 16px;
-  padding-bottom:24px;
-  border-radius:16px ;
+  padding-bottom: 24px;
+  border-radius: 16px;
 }
-.card-img img, .card-img {
-  width:100%;
+.card-img img,
+.card-img {
+  width: 100%;
 }
 
 .card h3 {
@@ -93,37 +99,38 @@ header {
 }
 
 .list-tags li {
-  color:  #7A869A;
+  color: #7a869a;
 }
 
-.card  {
+.card {
   line-height: 24px;
   margin-top: -6px;
 }
 
-.tag-ul{
+.tag-ul {
   padding-left: 0;
   display: flex;
   gap: 20px;
 }
 .tag-ul li {
   list-style: none;
-  border: 2px solid #EBEBFF;
+  border: 2px solid #ebebff;
   padding: 4px 12px;
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 8px;
 }
 
 .btn-card {
-  border:1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 12px;
-  color:  #396DF2;
+  color: #396df2;
   font-size: 1.1rem;
 }
 
-.section, .section2 {
-  font-family: 'Poppins', sans-serif;
+.section,
+.section2 {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -159,7 +166,7 @@ header {
   width: 100%;
 }
 
-.hero h1{
+.hero h1 {
   font-size: 2.4rem;
 }
 .img {
@@ -184,7 +191,7 @@ header {
 }
 
 .footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
@@ -211,7 +218,7 @@ header {
 }
 
 .tittle {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -223,7 +230,7 @@ header {
 }
 
 .canopy {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -240,7 +247,7 @@ header {
 }
 
 .paragraph {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -252,7 +259,7 @@ header {
 }
 
 button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -320,7 +327,7 @@ button {
 }
 
 .parag {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #000;
   font-weight: bold;
   margin-left: 10px;
@@ -332,7 +339,7 @@ hr {
 }
 
 .lang {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 20px;
   font-size: 16px;
   height: 24px;
@@ -357,13 +364,13 @@ hr {
 }
 
 .contact--form p {
-margin: 0 2rem;
-text-align: center;
+  margin: 0 2rem;
+  text-align: center;
 }
 
 .last--para {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   font-size: 2.3rem;
 }
@@ -371,12 +378,14 @@ text-align: center;
 .btn {
   padding: 12px 16px;
   border-radius: 8px;
-  font-size:0.9rem;
+  font-size: 0.9rem;
   margin-left: 2rem;
   margin-top: -6px;
   color: #6070ff;
 }
-.name, .email, .msg {
+.name,
+.email,
+.msg {
   margin: 0 2rem;
   padding: 10px;
   border-radius: 5px;
@@ -401,49 +410,48 @@ text-align: center;
   display: none;
 }
 
-@media(min-width: 992px) {
-   body {
-     text-align: center;
-}
- 
-.hero {
-  width: 80%;
-  margin: 30px auto;
-}
-
-.hero > p {
-  width: 80%;
- }
-
-.hero ul {
-  margin-left:0px;
-  display: flex;
-  gap: 10px;
- }
-
-.hero-connect {
-  text-align: left;
+@media (min-width: 992px) {
+  body {
+    text-align: center;
   }
 
- header {
-   height: 60vh;
-   margin-bottom: 55px;
+  .hero {
+    width: 80%;
+    margin: 30px auto;
   }
 
- .desktop--view {
+  .hero > p {
+    width: 80%;
+  }
+
+  .hero ul {
+    margin-left: 0px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .hero-connect {
+    text-align: left;
+  }
+
+  header {
+    height: 60vh;
+    margin-bottom: 55px;
+  }
+
+  .desktop--view {
     display: flex;
     gap: 15px;
     list-style: none;
   }
 
   .desktop--view li {
-     
     margin-top: auto;
     color: #344563;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;  
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
   }
-   
+
   .desktop--view a {
     text-decoration: none;
   }
@@ -451,7 +459,7 @@ text-align: center;
   .desktop--view li:hover {
     cursor: pointer;
   }
-  
+
   .logo-img {
     display: none;
   }
@@ -474,24 +482,24 @@ text-align: center;
     margin-top: -10px;
   }
 
-  .section{
+  .section {
     line-height: 24px;
     padding-top: 0;
     margin-left: 0;
     margin-top: -10px;
   }
- .btn-proj{
+  .btn-proj {
     margin-top: -20px;
-    margin-left:-3px;
+    margin-left: -3px;
   }
 
- .container3 {
+  .container3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: start;
     width: 100%;
     max-width: 1024px;
-    height:calc(100% + 89px);
+    height: calc(100% + 89px);
     padding-bottom: 20px;
   }
 
@@ -530,12 +538,12 @@ text-align: center;
   }
 
   .ellipse {
-     display: flex;
-     flex-direction: row;
-     gap: 15px;
-     margin-right: 40px;
-     padding-bottom: 10px;
-     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   .ellipse button {
@@ -551,12 +559,12 @@ text-align: center;
     margin-top: 9px;
   }
 
-   .desktop--btn {
-     justify-items: space-between; 
+  .desktop--btn {
+    justify-items: space-between;
   }
-   
-   .about--container {
-    padding:0 20px;
+
+  .about--container {
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -564,61 +572,61 @@ text-align: center;
     border: 3px solid red;
   }
 
-   .about--container >  h4 {
-     margin-left: 0.47em;
+  .about--container > h4 {
+    margin-left: 0.47em;
   }
 
-   .about--container h4 {
-     padding: 0;
-     text-align: left ;
+  .about--container h4 {
+    padding: 0;
+    text-align: left;
   }
 
-   .inner-about{
-     padding-left:30px;
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
+  .inner-about {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-   /* Card */
-   .card {
-     display: flex;
-     flex-direction: row;
-     gap: 46px;
-     width: 80%;
-     max-width: 1400px;
-     border-radius: 24px;
+
+  /* Card */
+  .card {
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+    width: 80%;
+    max-width: 1400px;
+    border-radius: 24px;
   }
-  
+
   .card-img {
-    width:544px;
+    width: 544px;
   }
 
   .card-img img {
     width: 100%;
   }
-  
+
   .tags-canopy {
     display: flex;
     align-items: center;
     font-size: 1rem;
     margin-top: -9px;
   }
-  
+
   .list-tags {
     display: flex;
     gap: 30px;
   }
-  
+
   .list-tags li {
-    color:  #7a869a;
+    color: #7a869a;
   }
-  
+
   .card p {
     line-height: 24px;
     margin-top: -6px;
   }
-  
+
   .tag-ul {
     padding-left: 0;
     display: flex;
@@ -628,10 +636,10 @@ text-align: center;
     list-style: none;
     border: 2px solid #ebebff;
     padding: 4px 12px;
-    color:  #6070ff;
+    color: #6070ff;
     border-radius: 8px;
   }
-  
+
   .card-decri {
     text-align: left;
   }
@@ -640,8 +648,10 @@ text-align: center;
     order: 1;
     margin-left: 20px;
   }
-  
-  .name, .email, .msg {
+
+  .name,
+  .email,
+  .msg {
     max-width: 552px;
   }
 
@@ -649,4 +659,4 @@ text-align: center;
     max-width: 554px;
     margin: 0 auto;
   }
-  }
+}
