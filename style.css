@@ -42,7 +42,7 @@ body {
   color: #172b4d;
 }
 
-.section .section2 {
+.section {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -56,6 +56,15 @@ body {
 
 .section2 {
   color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .navbar {
@@ -263,7 +272,15 @@ hr {
   color: white;
 }
 
-.name .email .msg .btn {
+.name {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  width: 250px;
+}
+
+.email {
   margin-left: 20px;
   padding: 10px;
   border-radius: 5px;
@@ -273,10 +290,20 @@ hr {
 
 .msg {
   height: 90px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  width: 250px;
 }
 
 .btn {
   width: 130px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  width: 250px;
 }
 
 .hrz {
