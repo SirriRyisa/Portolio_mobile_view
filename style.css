@@ -6,7 +6,7 @@ html {
 
 body {
   background-color: #e5e5e5;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -29,6 +29,7 @@ header {
 .logo-img {
   margin-right: 0;
 }
+
 .logo {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -66,6 +67,7 @@ header {
   margin-top: 30px;
   margin-bottom: 25px;
 }
+
 .card {
   background-color: #fff;
   width: 85%;
@@ -74,6 +76,7 @@ header {
   padding-bottom: 24px;
   border-radius: 16px;
 }
+
 .card-img img,
 .card-img {
   width: 100%;
@@ -112,6 +115,7 @@ header {
   display: flex;
   gap: 20px;
 }
+
 .tag-ul li {
   list-style: none;
   border: 2px solid #ebebff;
@@ -169,6 +173,7 @@ header {
 .hero h1 {
   font-size: 2.4rem;
 }
+
 .img {
   text-align: start;
   padding-left: 20px;
@@ -382,7 +387,9 @@ hr {
   margin-left: 2rem;
   margin-top: -6px;
   color: #6070ff;
+  width: 130px;
 }
+
 .name,
 .email,
 .msg {
@@ -397,17 +404,9 @@ hr {
   height: 170px;
 }
 
-.btn {
-  width: 130px;
-}
-
 .hrz {
   border: 2px solid black;
   width: 100px;
-}
-
-.desktop--view {
-  display: none;
 }
 
 @media (min-width: 992px) {
@@ -425,7 +424,7 @@ hr {
   }
 
   .hero ul {
-    margin-left: 0px;
+    margin-left: 0;
     display: flex;
     gap: 10px;
   }
@@ -488,6 +487,7 @@ hr {
     margin-left: 0;
     margin-top: -10px;
   }
+
   .btn-proj {
     margin-top: -20px;
     margin-left: -3px;
