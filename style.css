@@ -589,8 +589,7 @@ hr {
   .languages {
     order: 2;
   }
-  
-  /* Card */
+
   .card {
     display: flex;
     flex-direction: row;
