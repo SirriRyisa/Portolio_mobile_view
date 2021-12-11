@@ -410,10 +410,7 @@ hr {
     padding-top: 15px;
     padding-bottom: -400px;
     font-family: "Poppins", sans-serif;
-  }
-
-  .hero > p {
-    /* width: 80%; */
+    padding-left: 150px;
   }
 
   .hero ul {
