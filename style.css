@@ -55,80 +55,8 @@ header {
   color: #172b4d;
 }
 
-.card-section {
-  display: flex;
-  flex-direction: column;
-  gap: 70px;
-  margin-top: 30px;
-  margin-bottom: 25px;
-}
-
-.card {
-  background-color: #fff;
-  width: 85%;
-  margin: 0 auto;
-  padding: 16px;
-  padding-bottom: 24px;
-  border-radius: 16px;
-  line-height: 24px;
-  margin-top: -6px;
-}
-
-.card-img img,
-.card-img {
-  width: 100%;
-}
-
-.card h3 {
-  color: #172b4d;
-  font-size: 2rem;
-  line-height: 32px;
-  margin-bottom: 0;
-}
-
-.tags-canopy {
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-  margin-top: -9px;
-}
-
-.list-tags {
-  display: flex;
-  gap: 30px;
-}
-
-.list-tags li {
-  color: #7a869a;
-}
-
-.tag-ul {
-  padding-left: 0;
-  display: flex;
-  gap: 20px;
-}
-
-.tag-ul li {
-  list-style: none;
-  border: 2px solid #ebebff;
-  padding: 8px 12px;
-  color: #6070ff;
-  border-radius: 8px;
-  background-color: #ebebff;
-}
-
-.btn-card {
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  padding: 12px;
-  color: #396df2;
-  font-size: 1.1rem;
-  background-color: transparent;
-}
-
-.section,
-.section2 {
-  font-family: "Poppins", sans-serif;
+.section {
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -141,6 +69,15 @@ header {
 
 .section2 {
   color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .navbar {
@@ -248,7 +185,7 @@ header {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  margin-left: 11px;
+  margin-left: 12px;
   color: #344563;
 }
 
@@ -347,9 +284,8 @@ hr {
   margin: 0;
   border-top-left-radius: 70px;
   padding-right: 0;
-  padding-top: 50px;
-  margin-top: -50px;
-  padding-bottom: 10px;
+  padding-top: 60px;
+  margin-top: 80px;
   background-repeat: no-repeat;
   background-position: top right;
   top: 0;
@@ -367,20 +303,16 @@ hr {
   font-size: 2.3rem;
 }
 
-.btn {
-  padding: 12px 16px;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  margin-left: 2rem;
-  margin-top: -6px;
-  width: 130px;
-  color: #6070ff;
+.name {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  width: 250px;
 }
 
-.name,
-.email,
-.msg {
-  margin: 0 2rem;
+.email {
+  margin-left: 20px;
   padding: 10px;
   border-radius: 5px;
   border: 0;
@@ -388,264 +320,23 @@ hr {
 }
 
 .msg {
-  height: 170px;
+  height: 90px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  width: 250px;
+}
+
+.btn {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  width: 100px;
 }
 
 .hrz {
   border: 2px solid black;
-  width: 150px;
-}
-
-.desktop--view {
-  display: none;
-}
-
-@media (min-width: 992px) {
-  body {
-    text-align: center;
-  }
-
-  .hero {
-    margin: 60px 60px;
-    padding-top: 15px;
-    padding-bottom: -400px;
-    font-family: "Poppins", sans-serif;
-    padding-left: 150px;
-  }
-
-  .hero ul {
-    margin-left: 0;
-    display: flex;
-    gap: 10px;
-  }
-
-  .hero-connect {
-    text-align: left;
-  }
-
-  header {
-    height: 60vh;
-    margin-bottom: 55px;
-  }
-
-  .desktop--view {
-    display: flex;
-    gap: 15px;
-    list-style: none;
-  }
-
-  .tag-ul li {
-    list-style: none;
-    border: 2px solid #ebebff;
-    padding: 4px 12px;
-    color: #6070ff;
-    border-radius: 8px;
-  }
-
-  .desktop--view li {
-    margin-top: auto;
-    color: #344563;
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-  }
-
-  .desktop--view a {
-    text-decoration: none;
-  }
-
-  .list-tags li {
-    color: #7a869a;
-  }
-
-  .desktop--view li:hover {
-    cursor: pointer;
-  }
-
-  .logo-img {
-    display: none;
-  }
-
-  .header {
-    padding-top: 0;
-    margin-left: 0;
-    margin-top: -10px;
-  }
-
-  .imgs {
-    margin-left: -37px;
-    margin-top: 7px;
-    padding-top: 0;
-  }
-
-  .footer {
-    margin-top: 15px;
-    text-align: left;
-    margin-left: 0;
-  }
-
-  .section {
-    line-height: 24px;
-    padding-top: 0;
-    margin-left: 0;
-    margin-top: 10px;
-    width: 500px;
-  }
-
-  .btn-proj {
-    margin-top: -20px;
-    margin-left: -3px;
-  }
-
-  .container3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: start;
-    width: 100%;
-    max-width: 1024px;
-    height: calc(100% + 89px);
-    padding-bottom: 20px;
-  }
-
-  .img-container {
-    width: 80%;
-    height: 270px;
-    margin-bottom: 0;
-    margin-top: -15px;
-  }
-
-  .portolio_img {
-    height: 250px;
-  }
-
-  .work-description p {
-    padding-top: -300px;
-    text-align: left;
-    padding-right: 10px;
-  }
-
-  .words {
-    padding-right: 80px;
-  }
-
-  button {
-    text-align: left;
-  }
-
-  .about {
-    display: flex;
-    flex-direction: row;
-    padding: 170px 170px;
-  }
-
-  .ellipse {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    margin-right: 40px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-  }
-
-  .a-lang {
-    text-align: left;
-  }
-
-  .ellipse button {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px 50px;
-    width: 27%;
-    margin: 0;
-  }
-
-  .ellipse button span {
-    margin-top: 9px;
-  }
-
-  .about--container {
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .about--container > h4 {
-    margin-left: 0.47em;
-  }
-
-  .about--container h4 {
-    padding: 0;
-    text-align: left;
-  }
-
-  .inner-about {
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .languages {
-    order: 2;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: row;
-    gap: 46px;
-    width: 80%;
-    max-width: 1400px;
-    border-radius: 24px;
-  }
-
-  .card-img {
-    width: 544px;
-  }
-
-  .card-img img {
-    width: 100%;
-  }
-
-  .tags-canopy {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    margin-top: -9px;
-  }
-
-  .list-tags {
-    display: flex;
-    gap: 30px;
-  }
-
-  .card p {
-    line-height: 24px;
-    margin-top: -6px;
-  }
-
-  .tag-ul {
-    padding-left: 0;
-    display: flex;
-    gap: 20px;
-  }
-
-  .card-decri {
-    text-align: left;
-  }
-
-  .card-section .card:nth-child(even) .card-img {
-    order: 1;
-    margin-left: 20px;
-  }
-
-  .name,
-  .email,
-  .msg {
-    max-width: 552px;
-  }
-
-  .contact--form p {
-    max-width: 554px;
-    margin: 0 auto;
-  }
+  width: 100px;
 }
