@@ -377,9 +377,9 @@ hr {
   color: #6070ff;
 }
 
-.name,
-.email,
-.msg {
+#name,
+#email,
+#msg {
   margin: 0 2rem;
   padding: 10px;
   border-radius: 5px;
@@ -387,7 +387,7 @@ hr {
   width: 75%;
 }
 
-.msg {
+#msg {
   height: 170px;
 }
 
@@ -451,6 +451,11 @@ hr {
 
   .desktop--view a {
     text-decoration: none;
+    list-style: none;
+  }
+
+  .desktop--view a:hover {
+    color: #6070ff;
   }
 
   .list-tags li {
@@ -638,9 +643,9 @@ hr {
     margin-left: 20px;
   }
 
-  .name,
-  .email,
-  .msg {
+  #name,
+  #email,
+  #msg {
     max-width: 552px;
   }
 
