@@ -13,7 +13,7 @@ document.querySelectorAll('.mobile-menu a').forEach((element) => {
 });
 
 document.querySelectorAll('.toggle').forEach((link) => link.addEventListener('click', () => {
-  document.querySelector('.toggle').style.display = 'none'
+  document.querySelector('.toggle').style.display = 'none';
 }));
 
 const form = document.getElementByclassName('dataForm');
