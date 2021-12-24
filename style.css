@@ -56,6 +56,7 @@ header {
   color: #172b4d;
 }
 
+
 .container {
   position: fixed;
   left: 0;
@@ -163,6 +164,15 @@ header {
 
 .section2 {
   color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .navbar {
@@ -271,7 +281,7 @@ header {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  margin-left: 11px;
+  margin-left: 12px;
   color: #344563;
 }
 
@@ -370,9 +380,8 @@ hr {
   margin: 0;
   border-top-left-radius: 70px;
   padding-right: 0;
-  padding-top: 50px;
-  margin-top: -50px;
-  padding-bottom: 10px;
+  padding-top: 60px;
+  margin-top: 80px;
   background-repeat: no-repeat;
   background-position: top right;
   top: 0;
@@ -390,15 +399,14 @@ hr {
   font-size: 2.3rem;
 }
 
-.btn {
-  padding: 12px 16px;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  margin-left: 2rem;
-  margin-top: -6px;
-  width: 130px;
-  color: #6070ff;
+.name {
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  width: 250px;
 }
+
 
 .btn:hover {
   background-color: #6070ff;
@@ -409,14 +417,15 @@ hr {
 #email,
 #msg {
   margin: 0 2rem;
+
+
   padding: 10px;
   border-radius: 5px;
   border: 0;
   width: 75%;
 }
 
-#msg {
-  height: 170px;
+
 }
 
 .toggle {
@@ -773,6 +782,7 @@ hr {
     max-width: 554px;
     margin: 0 auto;
   }
+
 }
 
 .err-Msg {
