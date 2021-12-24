@@ -35,10 +35,9 @@ document.querySelectorAll(".mobile-menu a").forEach((element) => {
 });
 
 document.querySelectorAll('.toggle').forEach((link) => link.addEventListener('click', () => {
-document.queryselector('.toggle').style.display = "none";)
-}
-
-
+  document.querySelector(".toggle").style.display = "none";
+})
+);
 
 const form = document.getElementByclassName("dataForm");
 const storeName = form.elements.name;

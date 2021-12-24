@@ -424,14 +424,14 @@ hr {
   height: 100vh;
   color: white;
   position: fixed;
-  width: 400px;
-  z-index: 12; 
+  width: 488px;
+  z-index: 12;
 }
 
 .background {
   background-color: #6070ff;
   opacity: 80%;
-  width: 400px;
+  width: 488px;
 }
 
 .mobile-menu {
@@ -456,7 +456,7 @@ hr {
 .toggleclose {
   position: absolute;
   right: 50px;
-  top: 50px;
+  top: 17px;
   cursor: pointer;
 }
 
