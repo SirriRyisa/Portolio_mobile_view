@@ -11,6 +11,6 @@ contactForm.addEventListener('submit', (e) => {
   if (email.value.match(regex).length !== 0) {
     e.preventDefault();
     errMsg.style.display = 'block';
-    errMsg.innerHTML = "Invalid Email: your Email should be in lower case";
+    errMsg.innerHTML = 'Invalid Email: your Email should be in lower case';
   }
 });

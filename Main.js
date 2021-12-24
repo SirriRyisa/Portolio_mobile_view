@@ -1,5 +1,5 @@
-document.querySelector(".logo-img").addEventListener("click", () => {
-  document.querySelector(".toggle").style.display = "flex";
+document.querySelector('.logo-img').addEventListener('click', () => {
+  document.querySelector('.toggle').style.display = 'flex';
 });
 
 document.querySelector('.toggleclose').addEventListener('click', () => {
@@ -12,8 +12,7 @@ document.querySelectorAll('.mobile-menu a').forEach((element) => {
   });
 });
 
-document.querySelectorAll('.toggle').forEach((link) =>
-  link.addEventListener('click', () => {
+document.querySelectorAll('.toggle').forEach((link) =>link.addEventListener('click', () => {
     document.querySelector('.toggle').style.display = 'none';
   })
 );
