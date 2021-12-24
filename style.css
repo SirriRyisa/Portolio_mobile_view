@@ -404,7 +404,6 @@ hr {
   border-radius: 5px;
   border: 0;
   width: 250px;
-
 }
 
 .btn:hover {
@@ -480,7 +479,7 @@ hr {
 
 .desktop--view {
   display: none;
-  }
+}
 
 .hrz {
   border: 2px solid black;
@@ -770,4 +769,4 @@ hr {
     max-width: 554px;
     margin: 0 auto;
   }
-  }
+}
