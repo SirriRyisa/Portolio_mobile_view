@@ -2,8 +2,8 @@ document.querySelector('.logo-img').addEventListener('click', () => {
   document.querySelector('.toggle').style.display = 'flex';
 });
 
-document.querySelector(".toggleclose").addEventListener('click', () => {
-  document.querySelector(".toggle").style.display = 'none';
+document.querySelector('.toggleclose').addEventListener('click', () => {
+  document.querySelector('.toggle').style.display = 'none';
 });
 
 document.querySelectorAll('.mobile-menu a').forEach((element) => {
