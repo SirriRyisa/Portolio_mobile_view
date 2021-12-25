@@ -1,230 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <header>
-       <nav class="navbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryisa's Portfolio</title>
+    <script src="Main.js" defer></script>
+    <script src="FormValidate.js" defer></script>
+    <script src="popup.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+    <header>
+      <nav class="navbar">
         <a class="logo">My Logo</a>
         <div>
-         <img class="logo-img" src="./images/Union.png" alt="menubar">
-         <ul class="desktop--view">
-          <li> <a href="#portfolio" >Portfolio </a></li>
-          <li> <a href="#about">About</a></li>
-          <li> <a href="#contact">Contact</a></li>
-        </ul>
+          <img class="logo-img" src="./images/Union.png" alt="menubar" />
+          <ul class="desktop--view">
+            <li><a href="#portfolio">Portfolio </a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-       </nav>
-       <section class="hero">
-        <div><h1 class="header">I’m Ryisa <br> Glad to see you! </h1></div>
+      </nav>
+      <div class="toggle">
+        <div class="background">
+          <img
+            src="images/Icon.png"
+            alt="close toggle"
+            class="toggleclose"
+          />
+          <ul class="mobile-menu">
+            <li><a href="#portfolio">Portfolio </a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <section class="hero">
+        <a id="portfolio"></a>
+        <div>
+          <h1 class="header">
+            I’m Ryisa <br />
+            Glad to see you!
+          </h1>
+        </div>
         <div class="section">
-         <p class="section-intro">
-            I’m a software developer! I can help you build a product,feature or 
-            website Look through some of my work and experience! If you like what 
-            you see and have a project you need coded, don’t hestiate to contact me.
-         </p>
+          <p class="section-intro">
+            I’m a software developer! I can help you build a product,feature or
+            website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hesitate to
+            contact me.
+          </p>
         </div>
-         <p class="footer hero-connect">LET CONNECT</p>
-           <ul class="imgs">
-             <li><a href="#"><img class="imgs" src="./images/twitter.svg" alt="twitter handle"></a></li>
-             <li><a href="#"><img class="imgs" src="./images/linkin.png" alt="twitter handle"></a></li>
-             <li><a href="#"><img class="imgs" src="./images/github.jpg" alt="github handle"></a></li>
-             <li><a href="#"><img class="imgs" src="./images/medium.jpg" alt="medium handle"></a></li>
-             <li><a href="#"><img class="imgs" src="./images/angellist.jpg" alt="angellisthandle"></a></li>
-            </ul>
+        <p class="footer hero-connect">LET CONNECT</p>
+        <ul class="imgs">
+          <li>
+            <a href="#"
+              ><img
+                class="imgs"
+                src="./images/twitter.svg"
+                alt="twitter handle"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="imgs" src="./images/linkin.png" alt="twitter handle"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="imgs" src="./images/github.jpg" alt="github handle"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img class="imgs" src="./images/medium.jpg" alt="medium handle"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                class="imgs"
+                src="./images/angellist.jpg"
+                alt="angellisthandle"
+            /></a>
+          </li>
+        </ul>
       </section>
     </header>
 
-<!--WORK SECTION-->
+    <!--WORK SECTION-->
 
-<!--My section-->
-<section class='card-section'>
- 
-    <div class="card"> 
-      <div class='card-img'> 
-        <img src="./images/first_img.png" alt='project image'>
-      </div>
-      <div class="card-decri">
-        <h3>Multi-post <br /> Stories</h3>
-        <div class="tags-canopy">
-          <h5>CANOPY</h5>
-          <ul class="list-tags">
-            <li> Back End Dev </li>
-            <li>2015 </li>
-          </ul>
-        </div>
-        <p> A daily selection of privately
-            personalized reads; no account or sign-up required
+    <section class="card-section">
+  <!-- Cards displayed dynamically -->
+    </section>
+    <!--ABOUT SECTION-->
+    <section class="about">
+      <a id="about"></a>
+      <div class="inner-about">
+        <h2 class="header">
+          About <br />
+          Myself
+        </h2>
+        <p class="section about-p">
+          I’m a software developer! I can help you build a product,feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
         </p>
-  
-        <ul class="tag-ul">
-          <li> html </li>
-          <li> css</li>
-          <li> javascript</li>
+        <p class="footer">LET CONNECT</p>
+        <ul class="imgs">
+          <li>
+            <a href="#"
+              ><img src="./images/twitter.svg" alt="twitter handle"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/linkin.png" alt="twitter handle"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/github.jpg" alt="github handle"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/medium.jpg" alt="medium handle"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/angellist.jpg" alt="angellisthandle"
+            /></a>
+          </li>
         </ul>
-          <div>
-          <button class="btn-card">
-            See project 
-          </button>
-        </div>
-        </div>
-    </div>
-
-   <!--Card two-->
-    <div class="card"> 
-      <div class='card-img'> 
-        <img src="./images/second_img.png" alt='project image'>
+        <button type="button" class="btn-proj">Get my resume</button>
       </div>
-      <div class="card-decri">
-        <h3>Multi-post <br /> Stories</h3>
-        <div class="tags-canopy">
-          <h5>CANOPY</h5>
-          <ul class="list-tags">
-            <li> Back End Dev </li>
-            <li>2015 </li>
-          </ul>
-        </div>
-        <p> A daily selection of privately
-            personalized reads; no account or sign-up required
-        </p>
-  
-        <ul class="tag-ul">
-          <li> html </li>
-          <li> css</li>
-          <li> javascript</li>
-        </ul>
-  
-        <button type="button" class="btn-card">
-            See project 
-        </button>
-        </div>
-      
-    </div>
-
-   <!--Card three-->
-    <div class="card"> 
-      <div class='card-img'> 
-        <img src="./images/third_img.png" alt='project image'>
-      </div>
-      <div class="card-decri">
-        <h3>Multi-post <br /> Stories</h3>
-        <div class="tags-canopy">
-          <h5>CANOPY</h5>
-          <ul class="list-tags">
-            <li> Back End Dev </li>
-            <li>2015 </li>
-          </ul>
-        </div>
-        <p> A daily selection of privately
-            personalized reads; no account or sign-up required
-        </p>
-  
-        <ul class="tag-ul">
-          <li> html </li>
-          <li> css</li>
-          <li> javascript</li>
-        </ul>
-  
-        <button class="btn-card">
-            See project 
-        </button>
-        </div>
-      
-    </div>
-
-   <!--Card four-->
-    <div class="card"> 
-      <div class='card-img'> 
-        <img src="./images/forth_img.png" alt='project image'>
-      </div>
-      <div class="card-decri">
-        <h3>Multi-post <br /> Stories</h3>
-        <div class="tags-canopy">
-          <h5>CANOPY</h5>
-          <ul class="list-tags">
-            <li> Back End Dev </li>
-            <li>2015 </li>
-          </ul>
-        </div>
-        <p> A daily selection of privately
-            personalized reads; no account or sign-up required
-        </p>
-  
-        <ul class="tag-ul">
-          <li> html </li>
-          <li> css</li>
-          <li> javascript</li>
-        </ul>
-  
-        <button type="button" class="btn-card">
-            See project 
-        </button>
-        </div>
-    </div>
-</section>
-        <!--ABOUT SECTION-->
-      <section class="about">
-        <div class="inner-about">
-            <h2 class="header">About <br> Myself</h2>
-            <p class="section about-p">
-               I’m a software developer! I can help you build a product,feature or 
-               website Look through some of my work and experience! If you like what 
-               you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-           <p class="footer">LET CONNECT</p>
-             <ul class="imgs">
-              <li><a href="#"><img src="./images/twitter.svg" alt="twitter handle"></a></li>
-              <li><a href="#"><img src="./images/linkin.png" alt="twitter handle"></a></li>
-              <li><a href="#"><img src="./images/github.jpg" alt="github handle"></a></li>
-              <li><a href="#"><img src="./images/medium.jpg" alt="medium handle"></a></li>
-              <li><a href="#"><img src="./images/angellist.jpg" alt="angellisthandle"></a></li>
-             </ul>
-                <button class="btn-proj">Get my resume</button>
+      <div class="about--container">
+        <br />
+        <div class="language">
+          <h4 class="lang">Languages</h4>
+          <div class="ellipse">
+            <button type="button">
+              <img
+                class="desktop--btn"
+                src="./images/Ellipse1.png"
+                alt="ellipse"
+              /><span class="a-lang">JavaScript</span>
+            </button>
+            <br />
+            <button type="button">
+              <img
+                class="desktop--btn"
+                src="./images/Ellipse2.png"
+                alt="ellipse"
+              /><span class="a-lang">HTML</span>
+            </button>
+            <br />
+            <button type="button">
+              <img
+                class="desktop--btn"
+                src="./images/Ellipse3.png"
+                alt="ellipse"
+              /><span class="a-lang">CSS</span>
+            </button>
           </div>
-          <div class="about--container">
-              <br>
-              <div class="language">
-                <h4 class="lang">Languages</h4>
-                <div class="ellipse">
-                  <button><img class="desktop--btn" src="./images/Ellipse1.png" alt="ellipse"><span class="a-lang">JavaScript</span></button>
-                  <br>
-                  <button><img class="desktop--btn" src="./images/Ellipse2.png" alt="ellipse"><span class="a-lang">HTML</span></button>
-                  <br>
-                   <button><img class="desktop--btn" src="./images/Ellipse3.png" alt="ellipse"><span class="a-lang">CSS</span></button>
-                </div>
-                 </div>
-              
-                <div class="parag">
-                  <div class='framework'
-                  >  <h4>Frameworks</h4>
-                  <hr> 
-                
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> 
+        </div>
 
-      <!--Footer-->
-      <footer class="contact--form">
-        <h2 class="last--para">Contact me</h2>
-        <p class="section2">If you have an application you are interested in developing,
-           a feature that you need built or a project that needs coding.
-            I’d love to help with it 
-        </p><br>
-        <form action="https://formspree.io/f/xdoboeky" method="post" class="form-control">
-          <input type="text" class="name" name="name" placeholder="Sirri Ryisa" required><br><br>
-          <input type="email" class="email" name="email" placeholder="sirriryisa@gmail.com" maxlength="30" required><br><br>
-          <textarea class="msg" name="user_message" placeholder="write your message here" required></textarea><br><br>
-          <button class="btn">Get in touch</button><br><br>
-         
-        </form>
-        <hr class="hrz">
-      </footer>
-    </body>
+        <div class="parag">
+          <div class="framework">
+            <h4>Frameworks</h4>
+            <hr />
+          </div>
+          <div class="skills">
+            <h4>Skills</h4>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="contact--form">
+      <a id="contact"></a>
+      <h2 class="last--para">Contact me</h2>
+      <p class="section2">
+        If you have an application you are interested in developing, a feature
+        that you need built or a project that needs coding. I’d love to help
+        with it
+      </p>
+      <br />
+      <form
+        action="https://formspree.io/f/xdoboeky"
+        method="post"
+        id="form-control"
+        class="dataForm"
+      >
+        <label for="name"></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Sirri Ryisa"
+          required
+        /><br /><br />
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="sirriryisa@gmail.com"
+          maxlength="30"
+          required
+        /><br /><br />
+        <label for="msg"></label>
+        <textarea
+          id="msg"
+          name="msg"
+          placeholder="write your message here"
+          cols="30"
+          rows="10"
+          maxlength="500"
+        ></textarea
+        ><br /><br />
+        <span class="err-Msg"></span>
+        <button type="submit" class="btn">Get in touch</button><br /><br />
+      </form>
+      <hr class="hrz" />
+    </footer>
+    
+    <div class="popup--cover">
+    </div>
+        
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XY93K0GM7R"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XY93K0GM7R");
+    </script>
+  </body>
 </html>
